@@ -1,0 +1,156 @@
+@CHARSET "ISO-8859-1";
+/*.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #ffffcc !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}*/
+
+/* The hero image */
+
+
+/*
+body {
+        background-color: #1a1a1a;
+        background-image: ("E:/projt/project2/new1.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+		position: absolute;
+    }
+
+*/
+body {
+    
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.hero-image {
+    /* The image used */
+    background-image: url("E:\projt\project2\new11 (1).jpg") !important;
+	max-width: 100% !important;
+	opacity:1.5;
+    height: 100% !important;
+	background-size: contain;
+
+    /* Position  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	
+}
+ 
+ /* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+	position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: white;
+	font-family: Lucida Calligraphy;
+	font-size: 30px;
+	
+}
+.text1 {
+    text-align: left;
+	position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+	font-family: Rockwell Extra Bold;
+	font-size: 10px;
+	
+}
+
+.text2 {
+    text-align: left;
+	position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+	font-family: Rockwell Extra Bold;
+	font-size: 10px;
+	
+}
+.container-fluid
+{
+	background-color: black;
+}
+/* button design*/
+.button{
+	background-color: #e62e00; 
+   
+	border: none;
+	border-radius: 8px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+	transition-duration: 0.3s;
+}

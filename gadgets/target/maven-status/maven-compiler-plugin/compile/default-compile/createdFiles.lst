@@ -1,0 +1,6 @@
+com\niit\gadgets\controller\CartController.class
+com\niit\gadgets\controller\HomeController.class
+com\niit\gadgets\controller\ImageController.class
+com\niit\gadgets\controller\ListRestController.class
+com\niit\gadgets\controller\OrderController.class
+com\niit\gadgets\controller\UserController.class
